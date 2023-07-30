@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6wQPUI0rsg3svtUVqB2XpyI8liZ73VKLBFGF2PKcNHxbEovVqMcOn3hH7prswRbFP6+OPbES9oNE0XGKlrfoPw==",
+  "success": true,
+  "projectFilePath": "/Users/gogidanev/Projects/ArcaneWarp/ArcaneWarp/ArcaneWarp.csproj",
+  "expectedPackageFiles": [
+    "/Users/gogidanev/.nuget/packages/sayers.sdl2.core/1.0.11/sayers.sdl2.core.1.0.11.nupkg.sha512",
+    "/Users/gogidanev/.nuget/packages/sdl2/2.0.5/sdl2.2.0.5.nupkg.sha512",
+    "/Users/gogidanev/.nuget/packages/sdl2.redist/2.0.5/sdl2.redist.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
