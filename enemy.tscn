@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0fjm4lkoov2q"]
+
+[ext_resource type="Script" path="res://scripts/enemy.cs" id="1_poo3h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qbupd"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_r04fo"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_yif3s"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+scale = Vector2(3, 3)
+script = ExtResource("1_poo3h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_qbupd")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+material = SubResource("CanvasItemMaterial_r04fo")
+scale = Vector2(19.5, 19.5)
+mesh = SubResource("SphereMesh_yif3s")

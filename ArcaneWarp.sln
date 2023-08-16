@@ -1,25 +1,19 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcaneWarp", "ArcaneWarp\ArcaneWarp.csproj", "{8C41D73D-96E9-45D5-9BBB-F15DA271B101}"
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcaneWarp", "ArcaneWarp.csproj", "{3280F78C-A8D3-4D60-B184-3C433C1D1C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C41D73D-96E9-45D5-9BBB-F15DA271B101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C41D73D-96E9-45D5-9BBB-F15DA271B101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C41D73D-96E9-45D5-9BBB-F15DA271B101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C41D73D-96E9-45D5-9BBB-F15DA271B101}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B58D4D8E-F17F-4727-B7DE-8FC2843E0440}
+		{3280F78C-A8D3-4D60-B184-3C433C1D1C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3280F78C-A8D3-4D60-B184-3C433C1D1C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3280F78C-A8D3-4D60-B184-3C433C1D1C64}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{3280F78C-A8D3-4D60-B184-3C433C1D1C64}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{3280F78C-A8D3-4D60-B184-3C433C1D1C64}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{3280F78C-A8D3-4D60-B184-3C433C1D1C64}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 	EndGlobalSection
 EndGlobal
